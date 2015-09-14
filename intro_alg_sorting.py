@@ -28,7 +28,7 @@ haystack = int(data[0])
 dimension = int(data[1])
 nums = [int(x) for x in data[2].split()]
 
-for i in xrange(dimension - 1):
+# range takes from 0...(n-1)
+for i in xrange(dimension):
     if haystack == nums[i]:
         print i
-    
