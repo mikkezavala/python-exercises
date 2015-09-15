@@ -23,7 +23,7 @@ def m_sort(nums):
             out.append(left[i])
             i += 1
         else:
-            out.append(right[i])
+            out.append(right[j])
             j += 1
             
     while i < len(left):
